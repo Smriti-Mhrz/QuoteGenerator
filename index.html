@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <title>Quote Generator</title>
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar">
+        <div class="navbar_left">
+            <span class="title">Word Inspire</span>
+        </div>
+        <div class="navbar_right">
+            <div class="modes">
+                <img src="images/half-moon.svg" id="icon" alt="moon"/>
+                <!-- <i class="fas fa-moon"></i>|
+                <i class="fas fa-sun"></i> -->
+              
+            </div>
+            <div class="logo">SM</div>
+        </div>
+    </nav> 
+ 
+    <div class="quotes_title">
+        <span> Explore <span class="secondone">Quotes</span> <br/> from Your Favourite Category</span>
+    </div>
+    <div class="quotes_category">
+        <select name="quotescategory" id="category_select" title="CategoriesQuotes" placeholder="Select Category">
+          <option value="funny" class="option">Funny Quotes</option>
+          <option value="love" class="option">Love Quotes</option>
+          <option value="motivational" class="option">Motivational Quotes</option>
+          <option value="nature" class="option">Nature Quotes</option>
+        </select>          
+    </div>
+    <div class="quote_container">
+        <blockquote id="quote_list">What is the good of your stars and trees, your sunrise and the wind, if they do not enter into our daily lives</blockquote>
+        <p id="quote_author">E.M.Forster</p>
+    </div>
+    <div class="quote_button">
+        <button id="prev_btn" type="button">Previous</button>
+        <button id="generate_btn" type="button">Random Quotes</button>
+        <button id="next_btn" class="nextbtn" type="button"> Next</button>
+        <button id="increase_font" type="button">Increase(+)</button>
+        <button id="decrease_font" type="button">Decrease(-)</button>   
+    </div>
+
+    </div>
+
+</body>
+<script src="index.js">  
+</script>
+</html>
